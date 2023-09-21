@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: register-app
-          image: ajayreddy1122/register-app-pipeline:
+          image: ajayreddy1122/register-app-pipeline:gitops-token
           resources:
             limits:
               memory: "256Mi"
